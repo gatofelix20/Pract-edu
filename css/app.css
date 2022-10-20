@@ -42,6 +42,8 @@ a{
     margin: 0 auto ;
 }
 
+
+
 /*Header y Navegacion*/
 
 .nombre-sitio{
@@ -58,6 +60,7 @@ a{
     padding: 2rem 0 ;
     display: flex;
     justify-content: flex-end;
+    border-radius: 2rem;
 }
 
 .hero-logo{
@@ -99,4 +102,44 @@ a{
 
 .inactive{
     display: none;
+}
+
+/*Categorias*/
+
+.categoria{
+    margin-bottom: 2rem;  
+}
+.text-center{
+    text-align: center;
+}
+.listado-categorias{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  
+}
+
+.categoria a{
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #FFFFFF;
+    border-radius: 2rem;
+}
+.categoria img{
+    width: 35rem;
+    height: 35rem;
+}
+
+/*Bloque nosotros*/
+
+.sobre-nosotros {
+    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../imagenes/nosotros.jpg);
+    background-position: center, top left;
+    background-repeat: no-repeat;
+    background-size: 100%, 70rem;
 }
