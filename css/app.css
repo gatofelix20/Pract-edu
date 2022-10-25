@@ -138,8 +138,25 @@ a{
 /*Bloque nosotros*/
 
 .sobre-nosotros {
-    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../imagenes/nosotros.jpg);
-    background-position: center, top left;
+    background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../imagenes/nosotros.jpg);
+    padding: 10rem 0;
     background-repeat: no-repeat;
-    background-size: 100%, 70rem;
+    background-size: 100%, 180rem;
+    background-position: left, center;
+    
 }
+
+.sobre-nosotros-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.texto-nosotros{
+    flex-basis: 50%;
+    padding-left: 60rem;
+    color: #fff;
+}
+
+
+
+ 
